@@ -143,7 +143,7 @@ input, select, textarea {
 		font-size: 16pt;
 		font-weight: normal;
 		line-height: 1.75;
-		margin: 20%;
+		/* margin: 20%; */
 	}
 
 		@media screen and (max-width: 1680px) {
