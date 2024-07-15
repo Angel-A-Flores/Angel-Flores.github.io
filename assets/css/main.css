@@ -3,6 +3,8 @@
 @font-face {
 	font-family: 'Isle Body PERSONAL USE';
 	src: url('../font/IsleBodyBl_PERSONAL.ttf') format('truetype');
+	font-weight: normal;
+    font-style: normal;
 	}
 
 /*
