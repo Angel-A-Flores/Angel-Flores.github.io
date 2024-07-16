@@ -13,6 +13,9 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -39,6 +42,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+
 
 ol, ul {
 	list-style: none;
@@ -3950,5 +3955,70 @@ input, select, textarea {
 			#intro {
 				background-attachment: scroll;
 			}
+
+			/* Garbage */
+			/* #linkimage{
+				visibility: hidden;
+			}
+
+			#linkhoverText{
+				position: absolute;
+				left: 50%;
+				top: 0;
+				transform: translateX(-50%);
+				background-color: #000;
+				color: #fff;
+				white-space: nowrap;
+				padding: 10px 15px;
+				border-radius: 7px;
+				visibility: hidden;
+				opacity: 0;
+				transition: opacity 0.5s ease;
+			}
+			#linkhoverText::before{
+				content: "";
+				position: absolute;
+				left: 50%;
+				top: 100%;
+				transform: translateX(-50%);
+				border: 15px solid;
+				border-color: #000 #0000 #0000 #0000;
+			}
+			#linkhoverText:hover #linkimage{
+				top: -130%;
+				visibility: visible;
+				opacity: 1;
+			} */
+			 
+			.image-container {
+				position: relative;
+				display: inline-block;
+			  }
+			  
+			  .image-container img {
+				display: block;
+			  }
+			  
+			  .hover-text {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				background-color: rgba(0, 0, 0, 0.7);
+				color: rgb(211, 7, 7);
+				padding: 10px;
+				border-radius: 5px;
+				display: none; /* Initially hidden */
+			  }
+			  
+			  .image-container:hover .hover-text {
+				display: block; /* Shown when hovering */
+				transform: translate(-50%, -150%);
+			  }
+			  
+			  
+			  
+
+
 
 		}
