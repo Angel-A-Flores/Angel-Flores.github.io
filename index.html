@@ -11,6 +11,42 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+
+		<style>
+
+			/* #landing-screen {
+            display: flex;
+			width: 100vw;
+			height: 100vh;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+			background-color: #919191
+        }
+        	#start-button {
+            padding: 10px 10px;
+            font-size: 20px;
+            cursor: pointer;
+            border: none;
+            background-color: #28a745;
+            color: white;
+            border-radius: 5px;
+        } */
+
+			#game-container {
+				width: 85vw;
+				height: 100vh;
+				overflow: hidden;
+			}
+			iframe {
+				width: 70%;
+				height: 80%;
+				border: none;
+			}
+		</style>
+
+
 	</head>
 	<body class="is-preload">
 
@@ -24,7 +60,7 @@
 							<li><a href="#one">Star Crossed Inn</a></li>
 							<!-- <li><a href="#two">Fragment</a></li> -->
 							<li><a href="#three">Haunting Notes</a></li>
-							<!-- <li><a href="#four">Sketched Reflections</a></li> -->
+							<li><a href="#four">Sketched Reflections</a></li>
 							<li><a href="graphic-design.html">Graphic Design Works</a></li>
 							<li><a href="about.html">About</a></li>
 							<!-- <li><a href="#three">Sketched Reflections</a></li> -->
@@ -187,9 +223,8 @@
 					<section id="three" class="wrapper style2 spotlights">
 
 					
-
-						<!-- <img src="images/HauntingNotes/HautningNotes_Logo.png" width="35%">
-						<br><br> -->
+						<br><br>
+						<img src="images/HauntingNotes/HautningNotes_Logo.png" width="25%">
 						<br><br>
 
 						<img src="images/HauntingNotes/JPEG/HN_1.jpg" width="75%">
@@ -223,7 +258,7 @@
 					</div> -->
 
 					<!-- HERE IS FOR SKETCHED REFLECTIONS -->
-					<!-- </section>
+					</section>
 
 
 					<section id="four" class="wrapper style2 spotlights">
@@ -234,15 +269,35 @@
 						<br><br>
 
 
-						<img src="images/Sketched Reflections/SR_1.jpg" width="75%">
-						<br><br>
+						    <!-- Landing Screen -->
+    <!-- <div id="landing-screen" class="wrapper style2 spotlights">
+        <button id="start-button" class="wrapper style2 spotlights">Start Game</button>
+    </div> -->
 
-						<a href="https://brawl-flowers.itch.io/sketched-reflections">
-						<img src="images/Sketched Reflections/SR_1.PNG" width="25%" height="25%">
-						</a>	
-						
+    <!-- Game Container -->
+    <!-- <div id="game-container">
+        <iframe id="game-frame" src="sketched_reflections/index.html"></iframe>
+    </div> -->
 
-					</section> -->
+    <!-- <script>
+        document.getElementById("start-button").addEventListener("click", function() {
+            // Hide the landing screen
+            document.getElementById("landing-screen").style.display = "none";
+            // Show the game container
+            document.getElementById("game-container").style.display = "block";
+            // Load the game into the iframe
+            document.getElementById("game-frame").src = "sketched_reflections/index.html";
+        });
+    </script> -->
+
+
+						<div id="game-container">
+							<iframe src="sketched_reflections/index.html" ></iframe>
+							
+						<p>Controls: Z - Enter & Interact, X - Menu & Cancel, Shift - Run</p>
+						</div>
+
+					</section>
 
 
 				<!-- Two -->
