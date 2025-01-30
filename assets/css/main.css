@@ -3989,6 +3989,38 @@ input, select, textarea {
 				visibility: visible;
 				opacity: 1;
 			} */
+
+
+			/* ////////			 */
+			/* #lightbox {
+				display: none;
+				position: fixed;
+				z-index: 1000; 
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.9);
+				text-align: center;
+			}
+			
+			#lightbox img {
+				max-width: 90%;
+				max-height: 90%;
+				margin-top: 5%;
+			}
+			
+			.close {
+				position: absolute;
+				top: 20px;
+				right: 40px;
+				color: white;
+				font-size: 40px;
+				font-weight: bold;
+				cursor: pointer;
+			} */
+			/* ////////			 */
+
 			 
 			.image-container {
 				position: relative;
